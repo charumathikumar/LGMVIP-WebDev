@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tripmap_website</title>
+    <link rel="stylesheet" href="styles.css">
+     
+    
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ 
+</head>
+<body>
+
+    <!-- home page -->
+   <div class="hero">
+
+         <div class="nav"> 
+             
+           <h2 class="logo">TRIP<span>MAP</span> </h2>
+           <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Guide</a></li>
+              <li><a href="#">Offer</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+         <a href="#" class="btn">Book now</a>
+        </div>
+    
+        <div class="content">
+          
+             <h1>To Travel Is To Live</h1>
+            <h5>Have a happy time!!!</h5>
+            <div class="newsletter">
+            <form>
+                <input type="search" name="search" id="search" placeholder="search country or place">
+                <input type="button" name="search-btn" value="search">
+            </form>
+            
+          </div>
+     </div>
+    </div>
+
+    <!-- destination page -->
+    
+  <section class="features">
+      
+    <h1>DESTINATIONS</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="feature-img">
+                      
+                        <img src="./image/maldives.jpg" alt="maldives">
+
+                        <div class="price">
+                            <p>Rs.70,000/person</p>
+                        </div>
+                  
+                    <div class="feature-details">
+                        <h3>MALDIVES<br> Six Senses Laamu</h3>
+                        
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta autem assumenda necessitatibus, dolore nobis hic atque exercitationem ducimus enim veritatis, laudantium dolores tempora fuga!<br>3 Days , 2 Nights <br> Free wifi</p> 
+                       <a href="#" class="book-btn">BOOK NOW</a>
+                    </div>
+                   </div>
+               
+                </div>
+               </div>
+            
+            <div class="col-md-4"><div class="feature-box">
+               <div class="feature-img">
+                 
+                   <img src="./image/par.jpg" alt="paris">
+
+                   <div class="price">
+                       <p>Rs.90,000/person</p>
+                   </div>
+             
+               <div class="feature-details">
+                   <h3>PARIS <br>Eiffel Tower</h3>
+                  
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta autem assumenda necessitatibus, dolore nobis hic atque exercitationem ducimus enim veritatis, laudantium dolores tempora fuga!<br>3 Days , 2 Nights <br> Free wifi</p> 
+                   <a href="#" class="book-btn">BOOK NOW</a>
+               </div>
+              </div>
+          
+           </div></div>
+            <div class="col-md-4"><div class="feature-box">
+               <div class="feature-img">
+                 
+                   <img src="./image/itaewon.jpg" alt="KOREA">
+
+                   <div class="price">
+                       <p>Rs.80,000/person</p>
+                   </div>
+             
+               <div class="feature-details">
+                   <h3>SOUTH KOREA <br>Itaewon</h3>                    
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta autem assumenda necessitatibus, dolore nobis hic atque exercitationem ducimus enim veritatis, laudantium dolores tempora fuga!<br>3 Days , 2 Nights <br> Free wifi</p> 
+                   <a href="#" class="book-btn">BOOK NOW</a>
+               </div>
+              </div>
+          
+           </div></div>
+        </div>
+    </div>
+
+    <div class="more">
+       <a href="#"  class="more-btn">click here to see more > </a>
+    </div>
+       </section>
+    
+       <!-- video section -->
+        
+        <section class="video">
+
+            <div class="video-cont">
+                <h1 id="vid">VIDEOS</h1>
+              <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+  
+  
+                    <div class="swiper-slide">
+                      <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFyaXMlMjBuaWdodHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" />
+                      <div class="play-image">
+                          <a href="https://www.youtube.com/" target="_blank">
+                              <img id="play" src="data:image/png;base64,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" alt="" >
+                            </a>
+                      
+                      </div>
+                              
+                   
+                    </div>
+  
+                    <div class="swiper-slide">
+                      <img src="https://wallpapercave.com/wp/wp1809535.jpg" />
+                      <div class="play-image">
+                          <a href="https://www.youtube.com/" target="_blank">
+                        <img id="play" src="data:image/png;base64,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" alt="" >
+                      </a>
+                        
+            
+            
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="https://i.pinimg.com/236x/66/14/02/6614027418cb72ac8741e4b841f15781--over-the-the-ojays.jpg" alt="" />
+                      <div class="play-image">
+                          <a href="https://www.youtube.com/" target="_blank">
+                              <img id="play" src="data:image/png;base64,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" alt="" >
+                            </a>
+                      </div>
+            
+            
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="http://onebigphoto.com/uploads/2013/04/blue-grand-canal-and-basilica-venice.jpg" />
+                      <div class="play-image">
+                          <a href="https://www.youtube.com/" target="_blank">
+                              <img id="play" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPQAAADPCAMAAAD1TAyiAAAAeFBMVEX29vYAAAD5+fn+/v4vLy/7+/v////i4uLm5ua+vr43NzdtbW2hoaHb29u6urp4eHjx8fFDQ0OKiorPz89ZWVlMTExPT0/GxsaCgoIaGhqSkpJjY2PW1taysrJdXV2srKwUFBQhISGGhoYLCws7Ozt1dXUmJiabm5v1zyFxAAAH/klEQVR4nO2da1fyOhBG26RTClgtN7lYRET0///D09oXAemFMs8kwdP90bXU7tVprpOJ53V0dHR0dHR0dHT8P1An2H4WaZQi0hlJFMfpN3EcJflPiP6ifa5LUbpeLZ6D7c4/YbcdPC9W6zSiXN32c8JQpFX0uHoN/FqC19VjpPRfEM/eX28zHNT7HhkMN73sV2w/NQfS3nx8tfCP+Hju3au3yoyfds2OZeyeMu/7i3MK08XyNuOC5SIO7+p1K52sRxzjgtE6uZvXrXS0ujGsf7NbRXehrcLeHmNcsO+FrmsrHQ+Ryt/asdtvW0dPaOWcp0jbNquEkpWEcs4qcbMlV3q9lXL2/e3axRjXvamccs6051qMK/qSVc75cmsyomPAWKSZUezOy1bhxoRyzsaVTpuSF1POvv/iRjOu060556wZTx0IcXOhfWATWlZWJDIEq+fJbiuuPOHOuZypZ/HDpqj1WhCGQWTNmmI7yjmxJWua2HP2/YmVRlxbdbZjred2nX1/btzabmwXTAx/15TaNs5JjVpTz7Zvgck2XCWftnULPhODYzMjs+drGBlT1gankk28GGrCtdia5y2sjFjrvm3Pc/oGrJUjDfeRnoHGzNLEqpqBuLJe2Ha8ZCEc4GR9xF3GXHSMohLbfuWIjlFC+D4shqHgWiE51lsd6csFeMJKnZFkKRbgoYMt94GFUIArJ+bQVaQyr5qebYvV8SzyVdOjba96HiWs1da2Vj1bgfgm4xt1bdkIvGped/UGyiGsYQlXpgfeEw2iD4xaDQ/wV73lPVBASryX34KV2V90oFQo3vyDv2rdcACjkUDlqWbCq6gBdGLNn0bn0p54iEMn1pqdcBAUvahwiE+Br1rxd9//SWchLtqKx7gRih6zn+Yg7SnREB8DXzV/Hh0cX4HkwjlugIJYMDmRFm3FYUsoiJWxU+ksxN/5f7Ec2GoZYgk0OG9h5FrxBOMMmUj/kvZIKsRB02qNWPf9Le0pkmnFh6D2+w3wLBfSUq34G0QZk0dUIu2RyHRzghifAEYmfrl0FuICrThkfEKQFqdU2lMCIT4CtGQqgjxKuXQe4vBWPOLHN2hztkpaIMQB80vMJ10tnQ1UwCEO+KhDzL5GjTQ6xJ/5I1GFeZI66SzEMeH0D/Y3DVg/+KZWGjxQYa8koHawGqSzEJ9h/pEPGH4TKD2wSRoZ4iuuNCoPtFEa2Iqz80Ux47GrpGEhzh6TJaCNt2ukUSG+Yy4kgAahV0pnIQ4Z/zEHogp1PuVK6SzEAYMh5uwSlnNxrXQW4vz+gtln0RognHO1dB7i3HZkzZRm7sX/0EKaH+LM3XnQHKudNLsVf+d11BpVfKmVNDfE90xpVNpvS2leiDOXgWGnkdpKs1px5jhUv9qS5oT4K1MaVfPgBunbQ5yZkGBV2tM3DoLvWfrmuSZX2t43TbevDXO/aWutN2eJlNt62+qnWSuF3H4aVaWnnTRz2+OJJ41aF2wnzd3DZa4MwlLb20izVwiZibEW5tOAvAzufBq1LHu1NCLJjJlMBjuLda00JNeKeUbL8GooKHGUuy2POl55lTQoRXjJTaAj0L7aNdKoNMIZey8LNCRrlsal/bPz51DLoY3SwNRg9lElVJ/VJI3MkGWnP6Oa73pp5SETRfk5VYR5kFppcNY7IKUKM6OukwYnfwNqOIEKd1dLKw9cZPaL/6ZBm7WV0rqHrguESAPG1HOpktaoadwRxIEGgiyIVmQBo0M7Y4o4z4AZnpRKixzHg5yixuQMlkkLhLaPOnlI3GPEOZfSEqGd/yPQaR3EaOlCGt9qF4CKk0E6rd/SMqHtg86tZNCW/yzn0qSkqt5vUWctEYknZ9I6FitUCDtLjFgdPDtVKxXaPrJuEyAr9ihNHvTmtHMQ55MOz8nf5/iRFgxtH1r0A1BP8acmgmBo+9gKi/zNy0KalGBo++ztynP4Q9FvaR0jBnc1AItfZITcqVYuLX4NzxRbaJB9+DBQoq12AbpSLHenIwilQxuws3EhzXzVA9lW+xt8SWCNOywmxAxf/NnNes+nSNR+hiUPCoGsUPUD6qipFNg++oCLRdyPCJVzd7WieQGofM8F2uF6qRuxuv3ulkCWKX/8jXt3cByQvItDG7h7+Ba+RC+lQB2nxgJcJCoDlkwHBVDDphbh5Z6bWItfKRSKz4rbsjdwYS85dqPQwMQ9eK71WyZujnJtkil7mdCREHWSHMCDsRu4Q7Fap22RumilDFfuO3wxeYWp8pxYMZt5Ru9ZV4n8ZQuNfJi8v7Swtt5dD0w759bii/f1BOadrUe48dg+WFtszWZ2nPM23NpS+NRsu31mLVSuupEFWXP2bI1IzY09K6wt3Ppo4h7iekgox7OSQc/k2LPK2jN6renQc8DZM7vzIbeT0RbxO6EOjHrOOOfnno3cM79SNnuqS8JU/GWPUss91SUKVo6wggerA5IqdCTYjO8jh77mU5SeCMX4aKJdfM0FpPsC882PvsPKOaQewSO04FG5MRypI3vbwHn2rE/uK+eQnoCWiIcTfR/KOUpHX+wCKcuvyPFv+TeK9HzPqPK628+1kx1zA6ST/o0997Cf3FFc/4K0Nxm37MQ+xhPvfo0LlNbR+v3KQcvofR3pezcuyL5vnaSb91lN27acvW/SXPgOv+NqMnOiKO0/jBfDWfC5fNvt3pafwWy4GD/004joj/meoDK5C4gcmyd3dHR0dHR0dHR0dGD4D8fAlpTJFUwZAAAAAElFTkSuQmCC" alt="" >
+                            </a>
+                      </div>
+            
+            
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/312/526/506/doha-qatar-wallpaper-preview.jpg" />
+                      <div class="play-image">
+                          <a href="https://www.youtube.com/" target="_blank">
+                              <img id="play" src="data:image/png;base64,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" alt="" >
+                            </a>
+                      </div>
+            
+            
+                    </div>
+            
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+            </div>
+  
+  </section>
+
+      <!-- review section -->
+
+<section class="review" id="review">
+
+    <h1 >
+        REVIEW
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="https://www.gannett-cdn.com/presto/2018/12/20/USAT/c27adb9d-bce6-47f4-970f-f3d376a521b8-AP_4th_Annual_Beyond_Hunger___A_Place_at_the_Table__Gala.JPG" alt="">
+                    <div class="user-info">
+                        <h3>DAMON</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta autem assumenda necessitatibus, dolore nobis hic atque exercitationem ducimus enim veritatis, laudantium dolores tempora fuga!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="https://i.pinimg.com/564x/bb/07/6b/bb076bfc92fb895ff2a66e36f865ba66.jpg" alt="">
+                    <div class="user-info">
+                        <h3>STEFAN</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta autem assumenda necessitatibus, dolore nobis hic atque exercitationem ducimus enim veritatis, laudantium dolores tempora fuga!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="https://media.allure.com/photos/590b97b6e1d10427fbb0f287/4:3/w_3279,h_2459,c_limit/GettyImages-673094328.jpg" alt="">
+                    <div class="user-info">
+                        <h3>ELENA</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta autem assumenda necessitatibus, dolore nobis hic atque exercitationem ducimus enim veritatis, laudantium dolores tempora fuga!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="https://media1.popsugar-assets.com/files/thumbor/y_-yyLp_jB-JJIg-65LqbFY8QR8/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2015/07/09/950/n/1922398/18afc343_edit_img_image_88_1432663635/i/Candice-Accola.png" alt="">
+                    <div class="user-info">
+                        <h3>CAROLINE</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta autem assumenda necessitatibus, dolore nobis hic atque exercitationem ducimus enim veritatis, laudantium dolores tempora fuga!</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+     <!-- booking form -->
+
+<section class="booknow">
+    <div class="image"><br>
+        <h2>BOOKING FORM</h2><br>
+          <form>
+            <label for="fname">NAME  </label><br>
+           
+            <input type="text" id="fname" name="fname" placeholder="Enter your name"><br>
+            <label for="phone">PHONE</label><br> 
+            <input type="tel" id="phone" name="phone" placeholder="Enter phone number"><br>
+            <label for="des">DESTINATION</label><br> 
+            <input type="des" id="des" name="des" placeholder="Enter your destination"><br>
+            <label for="COUNT">NO.OF PEOPLE</label><br> 
+            <input type="number" id="count" name="count" placeholder="select no.of people"><br>
+            <label>   
+                PAYMENT
+                </label>   <br>
+                <select>  
+                <option value="Credit/Debit card">Credit/Debit card</option>  
+                <option value="UPI">UPI</option>  
+                <option value="Internet Banking">Internet Banking</option>  
+                
+                </select>  
+                <br> 
+            <p>GUIDE NEEDED?</p>
+            <input type="radio" id="html"  value="YES">
+            <label for="html">YES</label><br>
+            <input type="radio" id="html"  value="NO">
+            <label for="html">NO</label><br>
+            <input type="radio" id="html"  value="MAYBE">
+            <label for="html">MAYBE</label><br>
+            <button onclick="alert('THANK YOU\n Your travel has been confirmed!!')"  class="btn-1">CONFIRM</button>
+          <button onclick="alert('THANK YOU!!\n See you again!!')" class="btn-1" href="">CANCEL</button>
+          <a href="#" class="nextround">&#8250;</a>
+          
+    </form>
+    </div>
+</section>
+     
+
+<!-- footer setion -->
+
+    <section class="footer"><div class="foot-container">
+        <div class="footer-row">
+           
+            <div class="col-md-1">
+                <h4>FEATURES</h4>
+                <a href="#">Deals</a><br>
+            <a href="#">Offers</a><br>
+            <a href="#">Cancellation policies</a><br>
+            </div>
+<div class="col-md-1">
+            <h4>CONTACT INFO</h4>
+            <a href="#">+91 1239875444</a><br>
+            <a href="#">TRIPMAP@gmail.com</a><br>
+            <a href="#">Chennai, India - 600 008</a><br>
+        </div>
+            <div class="col-md-1">
+                <h4>CONTACT US</h4>
+                <div class="icons">
+              <a href="https://www.twitter.com" target="_blank">
+              <i class="fab fa-twitter fa-2x"></i></a>
+
+              <a href="https://www.youtube.com" target="_blank">
+              <i class="fab fa-youtube fa-2x"></i>
+</a><br>
+              <a href="https://www.facebook.com" target="_blank">
+              <i class="fab fa-facebook-f fa-2x"></i>
+</a>
+              <a href="https://www.linkedin.com" target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+</a><br>
+          </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
